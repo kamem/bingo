@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1px 0;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin: 0.3em 1em;
+  font-size: 50px;
+}
+
+header ul {
+  margin: 0.5em 4em 1em;
+  font-size: 30px;
+}
+
+em {
+  font-style: normal;
+  color: red;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+main ul {
+  margin: 1em;
+  letter-spacing: -0.4em;
+}
+
+main li {
+  margin: 0.1em;
+  display: inline-block;
+  font-size: 35px;
+  width: 80px;
+  line-height: 80px;
+  background: #ddd;
+  border-radius: 100px;
+  text-align: center;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  letter-spacing: normal;
+}
+
+.on {
+  background-color:  #ff5500;
+  color: #fff;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+}
